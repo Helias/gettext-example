@@ -14,6 +14,8 @@ If you just cloned this repository and it doesn't work, you have probably some p
 
     $ sudo service apache2 restart
 
+Moreover, be sure to have in your php.ini `extension=gettext` enabled.
+
 ## FAQ
 
 - **How can I generate the files .PO /.POT/.MO from files PHP?**
